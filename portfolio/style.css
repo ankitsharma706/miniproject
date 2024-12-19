@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #ffffff;
+  color: #333;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffc004;
+}
+.logo span {
+  color: #000;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 30px;
+}
+nav ul li a {
+  font-family: "Trade Winds", serif;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #ffc004;
+}
+.btn-primary {
+  background-color: #ffc004;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+  opacity: 0.7;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+iframe::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.con-01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 130px;
+  background-color: #ffffff;
+
+}
+.con-01 h1 {
+  font-size: 3rem;
+  color: #ffc004;
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.project-card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.project-card h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  color: #ffc004;
+}
+.project-card iframe {
+  width: 100%;
+  height: 70%;
+  border: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.project-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.project-description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+iframe:focus {
+  outline: none;
+  overflow: hidden;
+}
+iframe[seamless] {
+  display: block;
+  overflow: hidden;
+}
